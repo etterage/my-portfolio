@@ -1,11 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-import Navbar from "./Navbar"
+import HomePage from "./HomePage";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Navbar />
+        element: <HomePage />
     },
     {
         path: "/about",

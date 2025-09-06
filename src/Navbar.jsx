@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <header className="bg-darkBlue">
+      <header className="bg-DarkBlue">
         <div className="flex bg-darkBlue text-white px-10 justify-between items-center max-w-screen-2xl mx-auto">
           <img className="w-10 h-10" src="../src/assets/images/logo.svg" alt="" />
           <ul className="flex py-6 gap-14">
