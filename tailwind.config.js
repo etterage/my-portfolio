@@ -14,12 +14,16 @@ export default {
         WhiteBlue: "#E2E7F4",
         TransparentWhiteBlue: "#E7E8ED"
       },
+      width: {
+        "60rem": "60rem"
+      },
       minHeight: {
         ScreenMinusNav: "calc(100vh - 72px)"
       },
       maxWidth: {
         MaxChar: "50ch",
-        "80ch": "80ch"
+        "80ch": "80ch",
+        "60rem": "60rem"
       },
       padding: {
         PointOne: ".1rem"

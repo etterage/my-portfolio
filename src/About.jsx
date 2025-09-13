@@ -2,7 +2,7 @@ const About = () => {
   return (
     <>
       <section className="bg-WhiteBlue">
-        <div className="max-w-screen-2xl mx-auto px-10 pt-10">
+        <div className="max-w-screen-2xl mx-auto px-10 pt-20">
           <h1 className="text-4xl font-semibold pb-10">About Me</h1>
           <div className="grid grid-cols-3 gap-2 text-DarkBlue">
             <div className="grid grid-rows-3 gap-2 col-span-2 text-shadow-lg">
