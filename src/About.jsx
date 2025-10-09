@@ -4,7 +4,7 @@ import 'devicon/devicon.min.css';
 const About = () => {
   return (
     <>
-      <section className="bg-WhiteBlue py-10">
+      <section className="bg-WhiteBlue py-10 xl:pb-32 lg:pb-20">
         <div className="max-w-screen-2xl mx-auto px-8 md:px-10 sm:pt-6 lg:pt-10 text-xs sm:text-sm lg:text-base xl:text-lg">
           <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium lg:font-semibold pb-5 sm:pb-10 lg:pb-16">About Me</h1>
           {/*  */}
