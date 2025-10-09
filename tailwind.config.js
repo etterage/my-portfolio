@@ -18,7 +18,8 @@ export default {
         "60rem": "60rem"
       },
       minHeight: {
-        ScreenMinusNav: "calc(100vh - 72px)"
+        ScreenMinusNav: "calc(100vh - 72px)",
+        SmScreen: "60vh"
       },
       maxWidth: {
         MaxChar: "50ch",
@@ -29,7 +30,8 @@ export default {
         PointOne: ".1rem"
       },
       boxShadow: {
-        TopShadow: "0 -.05px 3px"
+        TopShadow: "0 -.05px 3px",
+        Float: "0px 0px 30px rgba(0, 0, 0, 0.04)"
       }
     },
   },

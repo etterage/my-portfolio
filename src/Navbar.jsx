@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <>
       <header className="bg-DarkBlue">
-        <div className="flex bg-darkBlue text-white px-10 justify-between items-center max-w-screen-2xl mx-auto">
-          <img className="w-10 h-10" src="../src/assets/images/logo.svg" alt="" />
-          <div className="sm:py-6 py-8">
-            <ul className="hidden sm:flex gap-14">
+        <div className="flex text-white lg:px-10 md:px-8 px-5 justify-between items-center max-w-screen-2xl mx-auto">
+          <img className="lg:w-10 lg:h-10 md:h-8 md:w-8 w-7 h-7" src="../src/assets/images/logo.svg" alt="" />
+          <div className="lg:py-8 md:py-6 py-4">
+            <ul className="hidden sm:flex gap-6 md:gap-10 lg:gap-14 md:text-base lg:text-lg text-sm">
               <Link to={'/'}>
                 <li>Home</li>
               </Link>

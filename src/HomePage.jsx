@@ -10,7 +10,7 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       {/* <Contact /> */}
     </>
   )
