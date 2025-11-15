@@ -4,9 +4,9 @@ import 'devicon/devicon.min.css';
 const About = () => {
   return (
     <>
-      <section className="bg-WhiteBlue py-10 xl:pb-32 lg:pb-20">
+      <section className="bg-WhiteBlue py-16 sm:py-20 md:py-24 lg:py-28 pb-20 sm:pb-24 md:pb-28 lg:pb-32">
         <div className="max-w-screen-2xl mx-auto px-8 md:px-10 sm:pt-6 lg:pt-10 text-xs sm:text-sm lg:text-base xl:text-lg">
-          <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium lg:font-semibold pb-5 sm:pb-10 lg:pb-16">About Me</h1>
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium lg:font-semibold pb-8 sm:pb-14 md:pb-16 lg:pb-20">About Me</h1>
           {/*  */}
           <div className="text-slate-700 grid xl:grid-cols-3 xl:gap-2">
             <div className="grid gap-2 xl:col-span-2">
